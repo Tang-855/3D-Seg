@@ -37,33 +37,6 @@
 
 4. **Inter-class similarity module**: unsupervised clustering grouping through clustering algorithms (e.g., K-means++), initial clustering superpoints based on the realization of the three-dimensional coordinate features of the two branch point clouds, based on the fusion of the three-dimensional coordinate features and high-dimensional features, to complete further iterative clustering process
 
-
-Translated with DeepL.com (free version)
-
-   ```
-   model = build_model_from_cfg(cfg.model)
-   criterion = build_criterion_from_cfg(cfg.criterion_args)
-   ```
-   Here is an example of `pointnet.yaml` (model configuration for PointNet model):
-   ```python
-   model:
-     NAME: BaseCls
-     encoder_args:
-       NAME: PointNetEncoder
-       in_channels: 4
-     cls_args:
-       NAME: ClsHead
-       num_classes: 15
-       in_channels: 1024
-       mlps: [512,256]
-       norm_args: 
-         norm: 'bn1d'
-   ```
-
-5. **Online logging**: *Support [wandb](https://wandb.ai/)* for checking your results anytime anywhere. Just set `wandb.use_wandb=True` in your command.  
-
-   ![docs/misc/wandb.png](docs/misc/wandb.png)
-
 ---
 
 ## Installation
