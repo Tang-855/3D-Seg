@@ -8,19 +8,19 @@
 <img src="docs/projects/misc/3D-USF.png" width=85% height=85% class="center">
 </p>
 
-# On rice and wheat point clouds, Crop3D showed a significant improvement in segmentation performance
+## On rice and wheat point clouds, Crop3D showed a significant improvement in segmentation performance
 
 ## Wheat
 -  在[10%，20%，30%，40%，50%，60%，70%，80%，90%，100%]这10个样本量下，基于全监督学习和无监督学习框架的DGCNN、PointCloud Transformer、经典的PointNet++、PointNeXt、PointMLP和PointConv等模型上，均有不同程度的分割性能提升。
 <p align="center">
-<img src="docs/projects/misc/wheat.jpeg" width=85% height=85% class="center">
+<img src="docs/projects/misc/wheat.png" width=85% height=85% class="center">
 </p>
 
 
 ## Rice
 -  Based on the PointMLP model, the mIoU trend of unsupervised and fully supervised learning in different rice samples
 <p align="center">
-<img src="docs/projects/misc/rice.jpeg" width=85% height=85% class="center">
+<img src="docs/projects/misc/rice.png" width=85% height=85% class="center">
 </p>
 
 ## Features
