@@ -42,8 +42,8 @@
 We provide a simple bash file to install the environment:
 
 ```
-git clone --recurse-submodules git@github.com:guochengqian/PointNeXt.git
-cd PointNeXt
+git clone --recurse-submodules git@github.com:Tang-855/3D-Seg.git
+cd 3D-Seg
 source update.sh
 source install.sh
 ```
