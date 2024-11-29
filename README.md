@@ -8,19 +8,20 @@
 <img src="docs/projects/misc/3D-USF.png" width=85% height=85% class="center">
 </p>
 
-On rice and wheat point clouds, Crop3D showed a significant improvement in segmentation performance
+# On rice and wheat point clouds, Crop3D showed a significant improvement in segmentation performance
 
 ## Wheat
+-  在[10%，20%，30%，40%，50%，60%，70%，80%，90%，100%]这10个样本量下，基于全监督学习和无监督学习框架的DGCNN、PointCloud Transformer、经典的PointNet++、PointNeXt、PointMLP和PointConv等模型上，均有不同程度的分割性能提升。
 <p align="center">
 <img src="docs/projects/misc/wheat.jpeg" width=85% height=85% class="center">
 </p>
 
-## News
--  :boom: Sep, 2022: [**PointNeXt**](https://arxiv.org/pdf/2206.04670v1.pdf) accepted by NeurIPS'22
--  :pushpin:  [Houwen Peng](https://houwenpeng.com/) is hiring research interns at Microsoft Research Asia. Contact: houwen.peng@microsoft.com 
--  :pushpin:  [Bernard Ghanem](https://www.bernardghanem.com/) is hiring visiting students. Monthly salary is paid with free housing. Contact Guocheng if interested: guocheng.qian@kaust.edu.sa
--  :boom: Jun, 2022: Code released
 
+## Rice
+-  Based on the PointMLP model, the mIoU trend of unsupervised and fully supervised learning in different rice samples
+<p align="center">
+<img src="docs/projects/misc/rice.jpeg" width=85% height=85% class="center">
+</p>
 
 ## Features
 In the PointNeXt project, we propose a new and flexible codebase for point-based methods, namely [**OpenPoints**](https://github.com/guochengqian/openpoints). The biggest difference between OpenPoints and other libraries is that we focus more on reproducibility and fair benchmarking. 
