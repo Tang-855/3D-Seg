@@ -13,20 +13,21 @@
 ## On rice and wheat point clouds, Crop3D showed a significant improvement in segmentation performance
 
 **Wheat**
--  Under the 10 sample sizes of [10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100%], the segmentation performance of *DGCNN, Point Cloud Transformer,PointNet++, PointNeXt, PointMLP* and *PointConv* based on fully supervised learning and ***Crop-3D*** has been improved to varying degrees.
+-  Under the 10 sample sizes of [10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100%], the segmentation performance of *DGCNN, Point Cloud Transformer, PointNet++, PointNeXt, PointMLP* and *PointConv* based on fully supervised learning and ***Crop-3D*** has been improved to varying degrees.
 <p align="center">
 <img src="docs/projects/misc/wheat.png" width=85% height=85% class="center">
 </p>
 
 
 **Rice**
--  Based on the PointMLP model, the mIoU trend of unsupervised and fully supervised learning in different rice samples
+-  Based on the *PointMLP* model, the mIoU trend of unsupervised and fully supervised learning in different rice samples
 <p align="center">
 <img src="docs/projects/misc/rice.png" width=85% height=85% class="center">
 </p>
 
 ## Module Introduction
-In the PointNeXt project, we propose a new and flexible codebase for point-based methods, namely [**OpenPoints**](https://github.com/guochengqian/openpoints). The biggest difference between OpenPoints and other libraries is that we focus more on reproducibility and fair benchmarking. 
+***Crop-3D*** consists of four major components：
+[**OpenPoints**](https://github.com/guochengqian/openpoints). 
 
 1. **Adaptive point cloud branching transformation**: randomly selects a combination of rotation, scaling and translation strategies in a local neighborhood to generate branching point clouds with similar global semantic features;
    
