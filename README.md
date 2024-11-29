@@ -27,7 +27,7 @@
 
 ## Module Introduction
 ***Crop-3D*** consists of four major components：
-[**OpenPoints**](https://github.com/guochengqian/openpoints). 
+[**Crop-3D**](https://github.com/Tang-855/3D-Seg/). 
 
 1. **Adaptive point cloud branching transformation**: randomly selects a combination of rotation, scaling and translation strategies in a local neighborhood to generate branching point clouds with similar global semantic features;
    
@@ -53,7 +53,8 @@ Cuda-11.3 is required. Modify the `install.sh` if a different cuda version is us
 
 
 ## Usage 
-Check our [online documentation](https://guochengqian.github.io/PointNeXt/) for detailed instructions. 
+
+Check our [***Crop-3D***](https://github.com/Tang-855/3D-Seg/) for detailed instructions. 
 
 A short instruction: all experiments follow the simple rule to train and test: 
 
@@ -78,7 +79,7 @@ More examples are available in the [paper](https://arxiv.org/abs/2206.04670).
 ---
 
 ### Acknowledgment
-This library is inspired by [PyTorch-image-models](https://github.com/rwightman/pytorch-image-models) and [mmcv](https://github.com/open-mmlab/mmcv). 
+This library is inspired by [PointNeXt](https://guochengqian.github.io/PointNeXt/modelzoo/). 
 
 
 
