@@ -51,27 +51,22 @@ Cuda-11.3 is required. Modify the `install.sh` if a different cuda version is us
 
 
 
-## Usage 
+## Run 
 
 Check our [***Crop-3D***](https://github.com/Tang-855/3D-Seg/) for detailed instructions. 
 
-A short instruction: all experiments follow the simple rule to train and test: 
+For example: 
+-  Running the DGCNN model:
 
 ```
-CUDA_VISIBLE_DEVICES=$GPUs python examples/$task_folder/main.py --cfg $cfg $kwargs
+chmod +x nohup.sh
+./nohup.sh &
 ```
-- $GPUs is the list of GPUs to use, for most experiments (ScanObjectNN, ModelNet40, S3DIS), we only use 1 A100 (GPUs=0)
-- $task_folder is the folder name of the experiment. For example, for s3dis segmentation, $task_folder=s3dis
-- $cfg is the path to cfg, for example, s3dis segmentation, $cfg=cfgs/s3dis/pointnext-s.yaml
-- $kwargs are the other keyword arguments to use. For example, testing in S3DIS area 5, $kwargs should be `mode=test, --pretrained_path $pretrained_path`. 
-
 
 ---
 
 ### Acknowledgment
 This library is inspired by [PointNeXt](https://guochengqian.github.io/PointNeXt/modelzoo/). 
-
-
 
 ### Citation
 If you find PointNeXt or the OpenPoints codebase useful, please cite:
