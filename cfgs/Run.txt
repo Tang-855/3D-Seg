@@ -1,0 +1,56 @@
+运行不同的模型时：
+
+
+********************** 无监督 **********************
+----参数配置文件更改 修改datatransformer
+----损失函数为：\UF-3DS\datautils\SelfSuperviseLoss.py
+----base_seg中：(路径：\UF-3DS\openpoints\models\segmentation\base_seg.py第55行)
+                              is_selfsupervise=False(全监督学习）
+                              is_selfsupervise=True(无监督学习）
+                             
+----dataset文件为：(路径：\UF-3DS\openpoints\dataset\shapenetpart\shapenetpart.py)
+运行无监督学习时：将shapenetpart_unsupervised.py重命名为shapenetpart.py
+运行无监督学习时：将shapenetpart_supervised.py重命名为shapenetpart.py
+
+
+********************** 1.PointNext **********************
+-------------------- 全监督 --------------------
+----cfg文件为：pointnext_super.yaml
+----pointnext_main.py
+
+-------------------- 2.PointNet2 --------------------
+----cfg文件为：pointnet2_default.yaml
+----dataset文件为：pointnet2_shapenetpart.py每次运行时将名字修改为shapenetpart.py
+"D:\a-project-T\Pointnext\openpoints\dataset\shapenetpart\"
+----models:backbone\pointnetv2.py
+----pointnext_main.py
+
+-------------------- 3.PointMlp --------------------
+----cfg文件为：pointmlp_default.yaml
+----dataset文件为：pointmlp_shapenetpart.py每次运行时将名字修改为shapenetpart.py
+"D:\a-project-T\Pointnext\openpoints\dataset\shapenetpart\"
+----models:backbone\pointmlp
+----pointmlp_main.py
+
+
+-------------------- 4.DGCNN --------------------
+----cfg文件为：pointnet2default.yaml
+----dataset文件为：每次运行时将名字修改为shapenetpart.py
+"D:\a-project-T\Pointnext\openpoints\dataset\shapenetpart\"
+----models:backbone\dgcnn
+----dgcnn_main.py
+
+-------------------- 5.pct --------------------
+----cfg文件为：pointnet2default.yaml
+----dataset文件为：每次运行时将名字修改为shapenetpart.py
+"D:\a-project-T\Pointnext\openpoints\dataset\shapenetpart\"
+----models:backbone\pct
+----dgcnn_main.py
+
+-------------------- 5.pct --------------------
+----cfg文件为：pointnet2default.yaml
+----dataset文件为：每次运行时将名字修改为shapenetpart.py
+"D:\a-project-T\Pointnext\openpoints\dataset\shapenetpart\"
+----models:backbone\pct
+----dgcnn_main.py
+

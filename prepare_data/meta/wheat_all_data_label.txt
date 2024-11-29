@@ -1,0 +1,3 @@
+val_ricedata_0922_12_3.npy
+val_ricedata_0922_3_3.npy
+val_ricedata_0922_56_2.npy

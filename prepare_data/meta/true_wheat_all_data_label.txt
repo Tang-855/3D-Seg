@@ -1,0 +1,12 @@
+Sample_3_Run1_WT1_16.npy
+Sample_3_Run1_WT1_40.npy
+Sample_3_Run1_WT1_55.npy
+Sample_3_Run1_WT1_96.npy
+Sample_3_Run1_WT1_89.npy
+Sample_3_Run1_WT1_43.npy
+Sample_3_Run1_WT1_157.npy
+Sample_3_Run1_WT1_143.npy
+Sample_3_Run1_WT1_123.npy
+Sample_3_Run1_WT1_153.npy
+Sample_3_Run1_WT1_140.npy
+Sample_3_Run1_WT1_70.npy
