@@ -12,14 +12,14 @@
 
 ## On rice and wheat point clouds, Crop3D showed a significant improvement in segmentation performance
 
-** Wheat **
+**Wheat**
 -  Under the 10 sample sizes of [10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100%], the segmentation performance of DGCNN, PointCloud Transformer, classic PointNet++, PointNeXt, PointMLP and PointConv based on fully supervised learning and unsupervised learning frameworks has been improved to varying degrees.
 <p align="center">
 <img src="docs/projects/misc/wheat.png" width=85% height=85% class="center">
 </p>
 
 
-** Rice **
+**Rice**
 -  Based on the PointMLP model, the mIoU trend of unsupervised and fully supervised learning in different rice samples
 <p align="center">
 <img src="docs/projects/misc/rice.png" width=85% height=85% class="center">
@@ -30,9 +30,12 @@ In the PointNeXt project, we propose a new and flexible codebase for point-based
 
 1. **Extensibility**: supports many representative networks for point cloud understanding, such as *PointNet, DGCNN, DeepGCN, PointNet++, ASSANet, PointMLP*, and our ***PointNeXt***. More networks can be built easily based on our framework since OpenPoints support a wide range of basic operations including graph convolutions, self-attention, farthest point sampling, ball query, *e.t.c*.
 
-1. **Adaptive point cloud branching transformation**: Randomly selects a combination of rotation, scaling and translation strategies in a local neighborhood to generate branching point clouds with similar global semantic features;
-2. **Global similarity module**: Calculates the similarity of two branching point clouds on a global scale;
-3. **Intra-class similarity module**: Evaluates the similarity between each neighboring point and the sample centroid in the same superpoint by constructing a loss function in the KNN grouped neighborhood;
+1. **Adaptive point cloud branching transformation**: randomly selects a combination of rotation, scaling and translation strategies in a local neighborhood to generate branching point clouds with similar global semantic features;
+   
+2. **Global similarity module**: calculates the similarity of two branching point clouds on a global scale;
+
+3. **Intra-class similarity module**: evaluates the similarity between each neighboring point and the sample centroid in the same superpoint by constructing a loss function in the KNN grouped neighborhood;
+
 4. **Inter-class similarity module**: unsupervised clustering grouping through clustering algorithms (e.g., K-means++), initial clustering superpoints based on the realization of the three-dimensional coordinate features of the two branch point clouds, based on the fusion of the three-dimensional coordinate features and high-dimensional features, to complete further iterative clustering process
 
 
