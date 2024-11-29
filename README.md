@@ -1,23 +1,18 @@
 # Crop3D
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pointnext-revisiting-pointnet-with-improved/semantic-segmentation-on-s3dis)](https://paperswithcode.com/sota/semantic-segmentation-on-s3dis?p=pointnext-revisiting-pointnet-with-improved)
 
-### [[arXiv]](https://arxiv.org/abs/2206.04670) | [[OpenPoints Library]](https://github.com/guochengqian/openpoints) | [[Online Documentation]](https://guochengqian.github.io/PointNeXt/)
+**Crop3D: A Comprehensive Unsupervised Segmentation Framework for Crop Point Cloud under Limited Labeling Conditions**
+
+**Innovation: ** We introduced a two-stage unsupervised segmentation framework (Crop-3D) to alleviate the challenge of leaf ear segmentation in wheat and rice point clouds. The framework is mainly composed of four modules: adaptive point cloud transformation, global similarity, intra-class similarity, and inter-class separation.
 
 <p align="center">
 <img src="docs/projects/misc/3D-USF.png" width=85% height=85% class="center">
 </p>
 
-Official PyTorch implementation for the following paper:
+On rice and wheat point clouds, Crop3D showed a significant improvement in segmentation performance
 
-**Crop3D: A Comprehensive Unsupervised Segmentation Framework for Crop Point Cloud under Limited Labeling Conditions**
-
-*by [Guocheng Qian](https://www.gcqian.com/), [Yuchen Li](https://cemse.kaust.edu.sa/vision-cair/people/person/yuchen-li), [Houwen Peng](https://houwenpeng.com/), [Jinjie Mai](https://cemse.kaust.edu.sa/people/person/jinjie-mai), [Hasan Hammoud](https://cemse.kaust.edu.sa/ece/people/person/hasan-abed-al-kader-hammoud), [Mohamed Elhoseiny](http://www.mohamed-elhoseiny.com/), [Bernard Ghanem](https://www.bernardghanem.com/)*
-
-**Innovation** We introduced a two-stage unsupervised segmentation framework (Crop-3D) to alleviate the challenge of leaf ear segmentation in wheat and rice point clouds. The framework is mainly composed of four modules: adaptive point cloud transformation, global similarity, intra-class similarity, and inter-class separation.
-
-
+## Wheat
 <p align="center">
-<img src="docs/projects/misc/pointnext.jpeg" width=85% height=85% class="center">
+<img src="docs/projects/misc/wheat.jpeg" width=85% height=85% class="center">
 </p>
 
 ## News
