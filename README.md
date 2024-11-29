@@ -2,7 +2,7 @@
 
 **Crop3D: A Comprehensive Unsupervised Segmentation Framework for Crop Point Cloud under Limited Labeling Conditions**
 
-**Innovation: ** We introduced a two-stage unsupervised segmentation framework (Crop-3D) to alleviate the challenge of leaf ear segmentation in wheat and rice point clouds. The framework is mainly composed of four modules: adaptive point cloud transformation, global similarity, intra-class similarity, and inter-class separation.
+Innovation: We introduced a two-stage unsupervised segmentation framework (Crop-3D) to alleviate the challenge of leaf ear segmentation in wheat and rice point clouds. The framework is mainly composed of four modules: adaptive point cloud transformation, global similarity, intra-class similarity, and inter-class separation.
 
 <p align="center">
 <img src="docs/projects/misc/3D-USF.png" width=85% height=85% class="center">
