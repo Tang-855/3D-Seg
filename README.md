@@ -11,7 +11,7 @@
 ## On rice and wheat point clouds, Crop3D showed a significant improvement in segmentation performance
 
 ## Wheat
--  在[10%，20%，30%，40%，50%，60%，70%，80%，90%，100%]这10个样本量下，基于全监督学习和无监督学习框架的DGCNN、PointCloud Transformer、经典的PointNet++、PointNeXt、PointMLP和PointConv等模型上，均有不同程度的分割性能提升。
+-  Under the 10 sample sizes of [10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100%], the segmentation performance of DGCNN, PointCloud Transformer, classic PointNet++, PointNeXt, PointMLP and PointConv based on fully supervised learning and unsupervised learning frameworks has been improved to varying degrees.
 <p align="center">
 <img src="docs/projects/misc/wheat.png" width=85% height=85% class="center">
 </p>
