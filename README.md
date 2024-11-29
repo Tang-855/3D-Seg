@@ -7,7 +7,9 @@ Innovation: We introduced a two-stage unsupervised segmentation framework (Crop-
 <p align="center">
 <img src="docs/projects/misc/3D-USF.png" width=85% height=85% class="center">
 </p>
-## 
+
+##         
+
 ## On rice and wheat point clouds, Crop3D showed a significant improvement in segmentation performance
 
 ## Wheat
