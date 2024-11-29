@@ -66,15 +66,6 @@ CUDA_VISIBLE_DEVICES=$GPUs python examples/$task_folder/main.py --cfg $cfg $kwar
 - $kwargs are the other keyword arguments to use. For example, testing in S3DIS area 5, $kwargs should be `mode=test, --pretrained_path $pretrained_path`. 
 
 
-## Model Zoo (pretrained weights)
-see [Model Zoo](https://guochengqian.github.io/PointNeXt/modelzoo/). 
-
-### Visualization
-More examples are available in the [paper](https://arxiv.org/abs/2206.04670). 
-
-![s3dis](docs/projects/misc/s3dis_vis.png)
-![shapenetpart](docs/projects/misc/shapenetpart_vis.png)
-
 ---
 
 ### Acknowledgment
