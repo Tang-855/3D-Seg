@@ -26,8 +26,7 @@
 </p>
 
 ## Module Introduction
-***Crop-3D*** consists of four major components：
-[**Crop-3D**](https://github.com/Tang-855/3D-Seg/). 
+[***Crop-3D***](https://github.com/Tang-855/3D-Seg/) consists of four major components：. 
 
 1. **Adaptive point cloud branching transformation**: randomly selects a combination of rotation, scaling and translation strategies in a local neighborhood to generate branching point clouds with similar global semantic features;
    
