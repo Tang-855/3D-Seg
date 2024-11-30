@@ -69,12 +69,4 @@ chmod +x nohup.sh
 This library is inspired by [PointNeXt](https://guochengqian.github.io/PointNeXt/modelzoo/). 
 
 ### Citation
-If you find PointNeXt or the OpenPoints codebase useful, please cite:
-```
-@InProceedings{qian2022pointnext,
-  title   = {PointNeXt: Revisiting PointNet++ with Improved Training and Scaling Strategies},
-  author  = {Qian, Guocheng and Li, Yuchen and Peng, Houwen and Mai, Jinjie and Hammoud, Hasan and Elhoseiny, Mohamed and Ghanem, Bernard},
-  booktitle=Advances in Neural Information Processing Systems (NeurIPS),
-  year    = {2022},
-}
-```
+If you find PointNeXt or the OpenPoints codebase useful, please cite ***Crop-3D***
