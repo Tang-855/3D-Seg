@@ -8,7 +8,20 @@
 <img src="docs/projects/misc/3D-USF.png" width=85% height=85% class="center">
 </p>
 
-##         
+## 
+
+## Module Introduction
+[***Crop-3D***](https://github.com/Tang-855/3D-Seg/) consists of four major components：. 
+
+1. **Adaptive point cloud branching transformation**: randomly selects a combination of rotation, scaling and translation strategies in a local neighborhood to generate branching point clouds with similar global semantic features;
+   
+2. **Global similarity module**: calculates the similarity of two branching point clouds on a global scale;
+
+3. **Intra-class similarity module**: evaluates the similarity between each neighboring point and the sample centroid in the same superpoint by constructing a loss function in the KNN grouped neighborhood;
+
+4. **Inter-class similarity module**: unsupervised clustering grouping through clustering algorithms (e.g., K-means++), initial clustering superpoints based on the realization of the three-dimensional coordinate features of the two branch point clouds, based on the fusion of the three-dimensional coordinate features and high-dimensional features, to complete further iterative clustering process
+---
+
 
 ## ***Crop3D*** showed a significant improvement in segmentation performance for rice and wheat point clouds.  
 
@@ -24,19 +37,6 @@
 <p align="center">
 <img src="docs/projects/misc/rice.png" width=85% height=85% class="center">
 </p>
-
-## Module Introduction
-[***Crop-3D***](https://github.com/Tang-855/3D-Seg/) consists of four major components：. 
-
-1. **Adaptive point cloud branching transformation**: randomly selects a combination of rotation, scaling and translation strategies in a local neighborhood to generate branching point clouds with similar global semantic features;
-   
-2. **Global similarity module**: calculates the similarity of two branching point clouds on a global scale;
-
-3. **Intra-class similarity module**: evaluates the similarity between each neighboring point and the sample centroid in the same superpoint by constructing a loss function in the KNN grouped neighborhood;
-
-4. **Inter-class similarity module**: unsupervised clustering grouping through clustering algorithms (e.g., K-means++), initial clustering superpoints based on the realization of the three-dimensional coordinate features of the two branch point clouds, based on the fusion of the three-dimensional coordinate features and high-dimensional features, to complete further iterative clustering process
-
----
 
 ## Model Performance
 Performance of ***Crop-3D*** improvements are shown in the following areas:
