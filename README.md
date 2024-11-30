@@ -57,7 +57,7 @@ cd 3D-Seg
 source update.sh
 source install.sh
 ```
-Cuda-11.3 is required. Modify the `install.sh` if a different cuda version is used. See [Install](docs/index.md) for detail. 
+If the above command fails to install successfully, please open the `install.sh` and follow the steps to install manually. See [Install](docs/index.md) for detail. 
 
 
 
