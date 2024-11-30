@@ -10,7 +10,7 @@
 
 ##         
 
-## On rice and wheat point clouds, Crop3D showed a significant improvement in segmentation performance
+## ***Crop3D*** showed a significant improvement in segmentation performance for rice and wheat point clouds.  
 
 **Wheat**
 -  Under the 10 sample sizes of [10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100%], the segmentation performance of *DGCNN, Point Cloud Transformer, PointNet++, PointNeXt, PointMLP* and *PointConv* based on fully supervised learning and ***Crop-3D*** has been improved to varying degrees.
