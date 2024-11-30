@@ -79,4 +79,4 @@ chmod +x nohup.sh
 This library is inspired by [PointNeXt](https://guochengqian.github.io/PointNeXt/modelzoo/). 
 
 ### Citation
-If you find PointNeXt or the OpenPoints codebase useful, please cite ***Crop-3D***
+If you find ***Crop-3D*** useful, please cite.
