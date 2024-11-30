@@ -65,6 +65,7 @@ If the above command fails to install successfully, please open the `install.sh`
 
 Check our [***Crop-3D***](https://github.com/Tang-855/3D-Seg/) for detailed instructions. 
 
+The installation commands for *DGCNN, Point Cloud Transformer, PointNet++, PointNeXt, PointMLP* and *PointConv* models are basically the same, using DGCNN as an example:
 For example: 
 -  Running the DGCNN model:
 
