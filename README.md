@@ -38,6 +38,16 @@
 
 ---
 
+## Model Performance
+Performance of ***Crop-3D*** improvements are shown in the following areas:
+
+1. **Robustness**: ***Crop-3D*** show segmentation performance on *DGCNN, Point Cloud Transformer, PointNet++, PointNeXt, PointMLP* and *PointConv* models.
+
+2. **Smaller sample size**：***Crop-3D*** provide more improvement in segmentation accuracy when the amount of training data is smaller.
+
+3. **Extensibility**：***Crop-3D*** Significantly Improves Accuracy of Small-Sample Training on Wheat and Rice Datasets
+
+
 ## Installation
 We provide a simple bash file to install the environment:
 
