@@ -53,7 +53,7 @@ We provide a simple bash file to install the environment:
 
 ```
 git clone --recurse-submodules git@github.com:Tang-855/3D-Seg.git
-cd 3D-Seg
+cd 3D-Seg 
 source update.sh
 source install.sh
 ```
@@ -70,6 +70,7 @@ For example:
 -  Running the DGCNN model:
 
 ```
+cd 3D-Seg/blob/main/output/
 chmod +x nohup.sh
 ./nohup.sh &
 ```
