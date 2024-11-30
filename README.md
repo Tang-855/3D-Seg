@@ -70,7 +70,7 @@ This library is inspired by [PointNeXt](https://guochengqian.github.io/PointNeXt
 
 ### Citation
 If you find PointNeXt or the OpenPoints codebase useful, please cite:
-```tex
+```
 @InProceedings{qian2022pointnext,
   title   = {PointNeXt: Revisiting PointNet++ with Improved Training and Scaling Strategies},
   author  = {Qian, Guocheng and Li, Yuchen and Peng, Houwen and Mai, Jinjie and Hammoud, Hasan and Elhoseiny, Mohamed and Ghanem, Bernard},
