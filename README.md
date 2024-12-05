@@ -43,9 +43,9 @@ Performance of ***3D-USF*** improvements are shown in the following areas:
 
 1. **Robustness**: ***3D-USF*** show segmentation performance on *DGCNN, Point Cloud Transformer, PointNet++, PointNeXt, PointMLP* and *PointConv* models.
 
-2. **Smaller sample size**：***Crop-3D*** provide more improvement in segmentation accuracy when the amount of training data is smaller.
+2. **Smaller sample size**：***3D-USF*** provide more improvement in segmentation accuracy when the amount of training data is smaller.
 
-3. **Extensibility**：***Crop-3D*** Significantly Improves Accuracy of Small-Sample Training on Wheat and Rice Datasets
+3. **Extensibility**：***3D-USF*** Significantly Improves Accuracy of Small-Sample Training on Wheat and Rice Datasets
 
 
 ## Installation
@@ -63,14 +63,14 @@ If the above command fails to install successfully, please open the `install.sh`
 
 ## Run 
 
-Check our [***Crop-3D***](https://github.com/Tang-855/3D-USF/) for detailed instructions. 
+Check our [***3D-USF***](https://github.com/Tang-855/3D-USF/) for detailed instructions. 
 
 The installation commands for *DGCNN, Point Cloud Transformer, PointNet++, PointNeXt, PointMLP* and *PointConv* models are basically the same, using DGCNN as an example:
 For example: 
 -  Running the DGCNN model:
 
 ```
-cd 3D-Seg/blob/main/output/
+cd 3D-USF/blob/main/output/
 chmod +x nohup.sh
 ./nohup.sh &
 ```
