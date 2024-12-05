@@ -52,8 +52,8 @@ Performance of ***3D-USF*** improvements are shown in the following areas:
 We provide a simple bash file to install the environment:
 
 ```
-git clone --recurse-submodules git@github.com:Tang-855/3D-Seg.git
-cd 3D-Seg 
+git clone --recurse-submodules git@github.com:Tang-855/3D-USF.git
+cd 3D-USF 
 source update.sh
 source install.sh
 ```
